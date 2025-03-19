@@ -5,7 +5,7 @@
 package mx.itson.potroMusic.entidades;
 
 import java.util.List;
-import mx.itson.music.enums.Genero;
+import mx.itson.potroMusic.enums.Genero;
 
 /**
  *
