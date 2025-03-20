@@ -109,14 +109,16 @@ public class Venta {
     
     public void calcularSubtotal () {
     for (Articulo a : articulos){
+        double s=0;
+        this.getSubtotal();
         if(a.getCategoria()== Categoria.ROPA){
-        
+        s+=a.getPrecio();
         }if(a.getCategoria()== Categoria.LINEA_BLANCA){
-        
+        s+=a.getPrecio();
         }if(a.getCategoria()== Categoria.ALIMENTOS){
-        
+        s+=a.getPrecio();
         }if(a.getCategoria()== Categoria.ELECTRONICA){
-        
+        s+=a.getPrecio();
         }
         
     } 
