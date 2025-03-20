@@ -119,6 +119,7 @@ public class Venta {
         s+=a.getPrecio();
         }if(a.getCategoria()== Categoria.ELECTRONICA){
         s+=a.getPrecio();
+        } else {
         }
         
     } 
